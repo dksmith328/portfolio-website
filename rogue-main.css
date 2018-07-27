@@ -1,0 +1,132 @@
+/****** BASE STYLES ******/
+
+@font-face {
+font-family: Wisdom-Script;
+src: url('Wisdom-Script.otf') format('opentype');
+}
+
+body {
+  font-family: "Montserrat";
+  width: 1200px;
+  margin: 0 20px;
+  padding-left: 50px;
+}
+
+/****** GRID ******/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 379px;
+  float: left;
+}
+
+.third-width .reviews {
+  display: inline-block;
+}
+
+.third-width .contact {
+  float: right;
+}
+
+.color {
+  color: #77a466;
+}
+
+.fancy {
+  font-family: 'Wisdom-Script';
+}
+
+/****** HEADER ******/
+
+header {
+  height: 100px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #77a466;
+}
+
+header h1 {
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-top: 25px;
+  padding-right: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  }
+
+/****** ABOUT ******/
+
+#top-section img {
+  border-bottom: 2px solid #77a466;
+}
+
+#top-section h3 {
+  text-transform: uppercase;
+  height: 30px;
+  font-size: 18px;
+}
+
+#top-section p {
+  font-size: 14px;
+  font-weight: 500;
+  height: 100px;
+  line-height: 25px;
+}
+/****** WORK ******/
+
+#bottom-section {
+  border-top: 1px solid #dedbdc;
+}
+
+.specials ul {
+  list-style: none;
+  font-size: 16px;
+  line-height: 35px;
+  padding-left: 0px;
+  }
+
+.reviews {
+  border-left: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.reviews p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.contact {
+  padding-left:  20px;
+}
+
+.contact p {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 10px;
+}
+
+/****** CONTACT ******/
+
+footer {
+  border-top: 1px solid #dedbdc;
+  height: 80px;
+  clear: both;
+  text-align: center;
+}

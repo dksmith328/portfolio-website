@@ -1,0 +1,112 @@
+body {
+  background: whitesmoke;
+}
+
+#your-life {
+  font-family: Lobster;
+  font-size: 48px;
+  border-top: double 6px black;
+  border-bottom: double 6px black;
+  text-align: right;
+  padding-bottom: 5px;
+}
+
+.caps {
+  font-family: Bungee Inline;
+  text-transform: uppercase;
+}
+
+#quit {
+  width: 400px;
+  font-family: Open Sans;
+  font-size: 24px;
+  padding: 20px;
+  border: dotted 5px black;
+  margin-top: 10px;
+}
+
+#heart {
+  float: right;
+  position: relative;
+  left: -37.5%;
+  margin-top: -200px;
+  font-size: 200px;
+  }
+
+#love {
+  width: 300px;
+  font-family: Lobster;
+  font-size: 36px;
+  float: right;
+  text-align: right;
+  margin-top: -180px;
+  margin-right: -200px;
+  border: inset 5px;
+  padding: 10px;
+}
+
+#beautiful {
+  font-family: Bungee Inline;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 20px;
+  width: 865px;
+  text-align: right;
+}
+
+#arrow {
+  margin-left: -50px;
+  position: relative;
+  top: -100px;
+  z-index: -1;
+}
+
+#share {
+  font-family: Bungee Inline;
+  position: relative;
+  top: -200px;
+  width: 800px;
+  font-size: 20px;
+  line-height: 30px;
+  float: right;
+  text-align: right;
+}
+
+#travel {
+  font-family: Lobster;
+  font-size: 36px;
+  width: 390px;
+  margin-top: -195px;
+  margin-right: -200px;
+  border: inset 5px;
+  padding: 10px;
+}
+
+#create {
+  font-family: Open Sans;
+  font-size: 24px;
+  width: 730px;
+  border: dotted 5px black;
+  margin-top: 20px;
+  float: right;
+  top: -200px;
+  position: relative;
+  height: 75px;
+  text-align: center;
+  padding: 30px 20px 20px 20px;
+}
+
+#life {
+  font-family: Lobster;
+  font-size: 48px;
+  border-top: double 6px black;
+  border-bottom: double 6px black;
+  text-align: left;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin-top: 15px;
+  display: inline-block;
+  width: 1275px;
+  top: -190px;
+  position: relative;
+}

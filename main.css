@@ -1,0 +1,198 @@
+/****BASE****/
+
+body {
+  background: #1f202b;
+  color: white;
+  font-family: 'Montserrat';
+  width: 1400px;
+  margin: 0 auto;
+}
+
+#container {
+  padding-right: 0px;
+}
+
+.color {
+  color: #a644d8;
+}
+
+.title {
+  text-align: center;
+}
+
+.font {
+  font-family: 'Source Code Pro';
+  font-size: 36px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+/***HEADER***/
+
+header {
+  height: 80px;
+  padding-top: 25px;
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: 500;
+  display: inline;
+  padding-left: 50px;
+  padding-top: 75px;
+}
+
+nav {
+  float: right;
+  padding-right: 50px;
+}
+
+nav ul li {
+  font-weight: 500;
+  list-style: none;
+  display: inline;
+  padding-left: 45px;
+}
+
+
+/****TOPSECTION****/
+
+#top-section {
+  height: 725px;
+}
+
+#top-section img {
+  position: absolute;
+}
+
+#top-section h1 {
+  font-size: 72px;
+  position: absolute;
+  padding-left: 50px;
+  top: 350px;
+  left: 50px;
+}
+
+
+/***portfolio-section****/
+
+#portfolio-section {
+    height: 1550px;
+}
+
+#portfolio-section h2 {
+  padding-top: 25px;
+  padding-bottom: 75px;
+}
+
+#first-project img {
+  padding-left: 100px;
+}
+.first-project-text {
+  float: right;
+  text-align: left;
+  padding-right: 100px;
+  width: 550px;
+}
+
+#second-project {
+  padding-top: 100px;
+}
+
+.second-project-text {
+  float: left;
+  text-align: right;
+  padding-left: 100px;
+  width: 550px;
+}
+
+#second-project img {
+  float: right;
+  padding-right: 100px;
+}
+
+#third-project {
+  padding-top: 450px;
+}
+
+#third-project img {
+  padding-left: 100px;
+}
+
+.third-project-text {
+  float: right;
+  text-align: left;
+  padding-right: 100px;
+  width: 550px;
+}
+
+/****about-me-section****/
+
+#about-me-section{
+  height: 550px;
+}
+
+#about-me-section img {
+  position: absolute;
+  z-index: -1;
+}
+
+#about-me-section h2 {
+  padding-top: 50px;
+  }
+
+#about-me-section-text {
+  color: black;
+  padding-top: 2px;
+  padding-left: 100px;
+  width: 550px;
+}
+
+#my-face {
+  position: absolute;
+  top: 2575px;
+  padding-left: 750px;
+}
+
+/******contact*****/
+
+#contact-section {
+  height: 400px;
+}
+
+#contact-section h2 {
+  padding-top: 25px;
+}
+
+#hire-me {
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 150px;
+  float: left;
+  line-height: 25px;
+}
+
+#follow-me {
+  float: right;
+  position: relative;
+  left: -47.5%;
+  padding-top: 25px;
+  text-align: center;
+  line-height: 25px;
+}
+
+#meet-me {
+  float: right;
+  text-align: center;
+  padding-top: 25px;
+  padding-right: 100px;
+  line-height: 25px;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 250px;
+  left: -5%;
+}
